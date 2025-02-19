@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/node": "^22.12.0",
+    "node-fetch": "^3.3.2",
+    "ollama": "^0.5.12",
+    "tldts": "^6.1.77"
+  }
+}

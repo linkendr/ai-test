@@ -1,0 +1,20 @@
+POST http://localhost:11434/api/chat
+
+#you need a space under the POST or get for header error
+{
+    "model": "deepseek-r1:1.5b",
+    "messages": [{
+        "role": "user",
+        "content": "why do dogs smell like dog?"
+    }]
+}
+
+
+#First test
+#POST http://localhost:11434/api/generate
+
+#{
+#    "model": "deepseek-r1:1.5b",
+#    "prompt": "why do dogs smell like dog?"
+#}
+#

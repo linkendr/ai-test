@@ -1,0 +1,70 @@
+# Environment variables
+.env
+.env.* 
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+models/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Temporary files and caches
+*.tmp
+*.cache
+*.pid
+*.seed
+*.gz
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm pack output
+*.tgz
+
+# Optional npm cache directory
+.npm/
+
+# Test coverage reports (e.g., Jest)
+coverage/
+
+# Lint and formatting tools
+.eslintcache
+
+# TypeScript build artifacts (if applicable)
+*.tsbuildinfo
+
+# Gatsby-specific (if applicable)
+.cache/
+public/
+
+# SvelteKit-specific (if applicable)
+.svelte-kit/
+
+# Next.js-specific (if applicable)
+.next/
+
+# Nuxt.js-specific (if applicable)
+.nuxt/
+
+# React Native-specific (if applicable)
+.expo/
+web-build/
